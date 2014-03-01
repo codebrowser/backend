@@ -1,12 +1,10 @@
 package rage.codebrowser.dto;
 
 import javax.persistence.Entity;
-import javax.persistence.Transient;
-
 
 @Entity
 public class Testresult extends AbstractNamedPersistable {
-    
+
     private String message;
     private boolean passed;
 
@@ -38,6 +36,4 @@ public class Testresult extends AbstractNamedPersistable {
         this.passed = passed;
     }
 
-    
-    
 }
